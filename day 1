@@ -1,0 +1,119 @@
+console.log("Hello World");
+// 1. string
+//Im creating a variable of type of string, word, character, sentence, "", ''
+var name= "Gregory Tai";
+console.log(name);
+
+var city ='Kuala lumpur';
+console.log(city);
+
+var quote ="I'm Happy";
+console.log(quote);
+
+var message = 'he says "Good Luck"';
+console.log(message);
+//Operation
+// you can us + to combine 2 strings (concatenation)
+var greetings ="Hello World "+name;
+console.log(greetings);
+
+// 2) Number
+var a = 10;
+var b = 3;
+//operation (+,-,*,/,%)
+var sum = a +b;
+console.log(sum);
+
+var minus = a - b;
+console.log(minus);
+
+var multiply = a * b;
+console.log(multiply);
+
+var divide = a / b;
+console.log(divide);
+
+var modulo = a % b;
+console.log(modulo);
+
+//boolean
+var isHungry = false;
+console.log(isHungry);
+
+var isHappy = true;
+console.log(isHappy);
+
+//Control flow
+//If else
+// double equal sign means comparing
+
+if (isHungry == true){
+  console.log("Lets eat dinner");
+}
+else {
+  console.log("let's eat after class");
+}
+
+var age = 17;
+
+if(age < 18){
+  console.log("you cant watch the movie");
+}
+else {
+  console.log(" you may enter the movie");
+}
+
+if (age < 13){
+  console.log ("you cannot watch the movie")
+}
+else if (age < 18){
+  console.log("You can watch this with a parent")
+}
+else {
+  console.log("You are of age to watch this movie")
+}
+
+//exercise 
+var userage= 20;
+var fullprice= 100;
+
+if (userage < 19){
+  console.log ("The full price is "+fullprice *0.5);
+}
+else if (userage < 41){
+  console.log ("The full price is "+fullprice);
+}
+else if (userage < 66){
+  console.log ("The full price is "+fullprice * 0.75);
+}
+else {
+  console.log ("The full price is "+fullprice * 0.5);
+}
+  
+var number = 100;
+
+if (number % 2 == 0){
+  console.log(number+" is even");
+}
+else {
+  console.log(number+" is odd");
+}
+
+// control flow - for loop
+// .from 0; until 10 ; every iteration add by 1
+for(var i = 0; i < 10; i+=1) {
+  console.log(i);
+}
+
+//from 1; until 10 ; every iteration add by 2
+for ( var i = 0; i < 10; i+=2) {
+  console.log(i);
+}
+
+var lines= 13;
+var multiplier = 4;
+
+for (var i = 1; i < lines; i ++){
+  console.log(i+" x "+multiplier+ " = "+i*multiplier);
+}
+	
